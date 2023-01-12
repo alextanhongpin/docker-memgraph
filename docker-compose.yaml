@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  memgraph:
+    image: memgraph/memgraph:2.5.0
+    container_name: memgraph
+    ports:
+      - 127.0.0.1:7687:7687 # Memgraph Lab
